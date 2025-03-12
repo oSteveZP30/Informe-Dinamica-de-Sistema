@@ -143,7 +143,38 @@ $$\frac{\frac{1}{3}}{s^{2+2s+2}}+\frac{\frac{2}{3}}{s^{2}+2s+5}$$
 $$L^{-1}\left\[\frac{\frac{1}{3}}{s^2 + 2s + 2} + \frac{\frac{2}{3}}{s^2 + 2s + 5}\right\] = L^{-1}\left\[\frac{\frac{1}{3}}{s^2 + 2s + 2}\right\] + L^{-1}\left\[\frac{\frac{2}{3}}{s^2 + 2s + 5}\right\]$$
 
 
+Operamos el denominador para que quede más sencillo de expresar:
 
+$$s^2 + 2s + 2$$
+
+Tomamos primero los 2 primeros términos y le agregamos y restamos 1:
+
+$$s^2 + 2s + 1 - 1 + 2 = (s+1)^2 + 1$$
+
+Juntamos las 2 expresiones y operamos:
+
+$$s^2 + 2s + 5 = s^2 + 2s + 1 - 1 + 5 = (s+1)^2 + 4$$
+
+Ahora para poder operar estas transformadas:
+
+$$L^{-1}\left\[\frac{\frac{1}{3}}{(s+1)^2 + 1}\right\] + L^{-1}\left\[\frac{\frac{2}{3}}{(s+1)^2 + 4}\right\]$$
+
+Sabemos que la transformada inversa de:
+
+$$L^{-1}\left\[\frac{a}{(s+c)^2 + a^2}\right\] = e^{-ct} \sin(at)$$
+
+Para nuestra casa, los términos son \((s+1)^2 + a^2\). Esto nos dice que la transformada de la placa, la cual introducimos es:
+
+$$ L^{-1}\left\[\frac{1}{(s+c)^2 + a^2}\right\] = e^{-ct} \frac{\sin(at)}{a}
+$$
+
+Entonces:
+
+$$= \frac{1}{3} e^{-t} \sin(t) + \frac{2}{3} e^{-t} \frac{\sin(2t)}{2}$$
+
+Finalmente:
+
+$$= \frac{1}{3} e^{-t} \sin(t) + \frac{1}{3} e^{-t} \sin(2t)$$
 
 
 
