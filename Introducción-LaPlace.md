@@ -208,3 +208,4 @@ Es una función que permite resolver problemas que involucran oscilaciones que p
 
 
 
+
