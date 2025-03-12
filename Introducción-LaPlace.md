@@ -75,26 +75,26 @@ $$\frac{d^{2}x(t)}{dt^{2}}+\frac{dx(t)}{dt}+x(t)+x^{3}(t)=sen(\omega  t)$$
 ## 3.Sistemas lineales y no lineales: 
 Teoría de sistemas analiza y diseña componentes que interactúan en una configuración que brinde un comportamiento deseado.
 ### 3.1 Sistema lineal: 
-Es cuando cumple con el principio de superposición, es decir que al combinar entradas de forma lineal se tendrá una respuesta en la salida igual en cada entrada individual, también se caracteriza por la proporcionalidad entre la entrada y la salida. Lo anterior permite un análisis matemático sencillo porque son sistemas bien establecidos. 
+Es cuando cumple con el principio de superposición, es decir que al combinar entradas de forma lineal se tendrá una respuesta en la salida igual en cada entrada individual, también se caracteriza por la proporcionalidad entre la entrada y la salida. Lo anterior permite un análisis matemático sencillo porque son sistemas bien establecidos(7). 
 ### 3.2 Sistema no lineal:
 Este tipo de sistema no cumple con el principio de superposición, ni tampoco tiene proporcionalidad entre la entrada y la salida. Estos se alinean en un punto de operación para que cumplan con el principio, pero presentan múltiples puntos de equilibrio y caos, lo que hace que su análisis sea de mayor complejidad(7).
 
 ## 4.Modelamiento y validación: 
 Hay un nivel de incertidumbre en el resultado final al aplicar leyes físicas a un modelo matemático o sistema. 
-Para validar el modelo se compara la salida del modelo con la salida de modelo físico, de esta manera se valida el modelo respecto al sistema, se debe modificar el modelo hasta que se consiga una diferencia aceptable entre ellos. 
+Para validar el modelo se compara la salida del modelo con la salida de modelo físico, de esta manera se valida el modelo respecto al sistema, se debe modificar el modelo hasta que se consiga una diferencia aceptable entre ellos(7). 
 ## 5.Influencia de parámetros:
 ### 5.1 Comportamiento sinusoidal: 
-Se refiere a un patrón que se repite de forma regular, que gráficamente se ve como una curva oscilante. Esta se representa como la función de seno.
+Se refiere a un patrón que se repite de forma regular, que gráficamente se ve como una curva oscilante. Esta se representa como la función de seno(8).
 
 insertar imagen
 
 ### 5.2 Decaimiento exponencial:
-Se observa un decrecimiento acelerado debido a un fenómeno de variación exponencial. Este decaimiento es proporcional al valor de la medida o cantidad actual y es constante. Esto se modela matemáticamente por medio de una función exponencial con base entre 0 y 1 (8). 
+Se observa un decrecimiento acelerado debido a un fenómeno de variación exponencial. Este decaimiento es proporcional al valor de la medida o cantidad actual y es constante. Esto se modela matemáticamente por medio de una función exponencial con base entre 0 y 1 (9). 
 
 insertar imagen
 
 ### 5.3 Combinación de los dos anteriores: 
-Se presenta una oscilación que pierde amplitud gradualmente con el paso del tiempo siguiendo la función de decaimiento exponencial(9).
+Se presenta una oscilación que pierde amplitud gradualmente con el paso del tiempo siguiendo la función de decaimiento exponencial(8).
 
 insertar imagen
 
@@ -137,31 +137,31 @@ Es importante tener en cuenta lo siguiente:
 
 
 ## 8.Algunas propiedades de la transformada de Laplace:
-La transformada de laplace tiene diversas propiedades que se pueden aplicar a los problemas de valor inicial en ecuaciones diferenciales o para su definición. Algunas de estas propiedades son:  
+La transformada de laplace tiene diversas propiedades que se pueden aplicar a los problemas de valor inicial en ecuaciones diferenciales o para su definición(10). Algunas de estas propiedades son:  
 ### 8.1 Propiedad de linealidad: 
-Esta propiedad se da por dos funciones que se establecen linealmente, las cuales son f, g ∈ E
-y se representan de esta forma: 
+Esta propiedad se da por dos funciones que se establecen linealmente, las cuales son f, g ∈ E (10).
+Se representan de esta forma: 
      
 $$L[C1f(t)+C2 g(t)] = C1L[f(t)] + C2L[g(t)], C1, C2 ∈ IR$$
 
 Esto permite tomar constantes fuera de la transformada y descomponer funciones complejas en sumas de funciones más simples. 
 
 ### 8.2 Desplazamiento en t: 
-Es decir desplazamiento en el tiempo, esta permite el análisis de sistemas lineales invariantes en el tiempo,  se describe como un desplazamiento en el tiempo de una función en dominio del tiempo que afecta su función en dominio de una frecuencia. Permite la resolución de ecuaciones diferenciales donde las condiciones iniciales están desplazadas en el tiempo.
+Es decir desplazamiento en el tiempo, esta permite el análisis de sistemas lineales invariantes en el tiempo,  se describe como un desplazamiento en el tiempo de una función en dominio del tiempo que afecta su función en dominio de una frecuencia. Permite la resolución de ecuaciones diferenciales donde las condiciones iniciales están desplazadas en el tiempo(10).
 
 Si $g(t)=f(t-\tau)u(t-\tau )$
 
 Entonces $$G(s)=e^{-ST} F(s)$$ , $$\tau \geq 0$$
 
 ### 8.3  Desplazamiento en S: 
-Se conoce como desplazamiento de frecuencia, es una propiedad que permite analizar la multiplicación de una función en el dominio del tiempo por una función exponencial, representa un cambio de frecuencia del sistema. Esta propiedad permite analizar sistemas que poseen términos exponenciales.
+Se conoce como desplazamiento de frecuencia, es una propiedad que permite analizar la multiplicación de una función en el dominio del tiempo por una función exponencial, representa un cambio de frecuencia del sistema. Esta propiedad permite analizar sistemas que poseen términos exponenciales(10).
 
 Si $g(t)= f(t-\tau )$
 
 Entonces $$G(s)=F(s+a)$$ , $$a\geq 0$$
 
 ### 8.4 Propiedad de escalado en t: 
-Esta describe un cambio en la escala del tiempo de una función, lo cual afecta su transformada de Laplace.  Permite analizar cambios de velocidad o frecuencia de un sistema.
+Esta describe un cambio en la escala del tiempo de una función, lo cual afecta su transformada de Laplace.  Permite analizar cambios de velocidad o frecuencia de un sistema(10).
 
 Si $g(t)=f(kt)$
 
@@ -203,9 +203,97 @@ $$=\frac{A}{s}\int_{0}^{\infty} e^{-st} dt$$
 $$=\frac{A}{s^{2}}$$
 
 ### 9.3 Transformada función senoidal: 
-Es una función que permite resolver problemas que involucran oscilaciones que permite analizar sistema de entrada senoidal. 
+Es una función que permite resolver problemas que involucran oscilaciones que permite analizar sistema de entrada senoidal(11). 
+
+Sea la función $f(t)$ definida como:
+
+$$
+f(t) = \begin{cases} 
+0 & \text{para } t < 0 \\
+A \sin(\omega t) & \text{para } t \geq 0
+\end{cases}
+$$
+
+Donde:
+
+* $A$ es la amplitud de la función seno.
+* $\omega$ es la frecuencia angular.
+
+Utilizando la identidad trigonométrica:
+
+$$
+\sin(\omega t) = \frac{1}{2j} (e^{j\omega t} - e^{-j\omega t})
+$$
+
+La transformada de Laplace de $f(t)$ se calcula como:
+
+$$
+\mathcal{L}\{A \sin(\omega t)\} = \frac{A}{2j} \int_{0}^{\infty} (e^{j\omega t} - e^{-j\omega t}) e^{-st} dt
+$$
+
+Resolviendo la integral, obtenemos:
+
+$$
+\mathcal{L}\{A \sin(\omega t)\} = \frac{A}{2j} \left( \frac{1}{s - j\omega} - \frac{1}{s + j\omega} \right) = \frac{A\omega}{s^2 + \omega^2}
+$$
+
+Por lo tanto, la transformada de Laplace de $A \sin(\omega t)$ es:
+
+$$
+\frac{A\omega}{s^2 + \omega^2}
+$$
+### 9.4 Transformada de una función
+Es cuando una función de una variable (usualmente tiempo) se convierte en otra función con una variable diferente (frecuencia) (10).
+
+$$\mathcal{L} \{ f(t) \} = F(s)$$
+
+### 9.5 Transformada de la derivada
+Establece una relación entre la transformada de Laplace de una función con la transformada de Laplace de la función original. Permite convertir una derivada del dominio del tiempo en una operación algebraica(10).
+
+$$\mathcal{L} \{ f'(t) \} = s F(s) - f(0)$$
+
+$$\mathcal{L} \{ f''(t) \} = s^2 F(s) - s f(0) - f'(0)$$
+
+$$\mathcal{L} \{ f^{(n)}(t) \} = s^n F(s) - s^{n-1} f(0) - \dots - s f^{(n-1)}(0) - f^{(n)}(0)$$
+
+### 9.6 Transformada de la integral
+Establece una relación entre la transformada de Laplace de una integral con la transformada de Laplace de la función original(10).
+
+$$L \left[{\int{f(t)dt}}\right]= \frac{1}{s} F(s)$$
+
+## 10. Tabla de transformadas
+Es una tabla que provee pares funciones de la mayoría de transformadas de Laplace, lo que permite encontrar la transformada de una función y, así mismo, la transformada inversa(10).
+
+insertar imagen
+
+## 11. Conclusiòn: 
+La trasfromada de Laplace es una tècnica matemàtica muy importante ya que nos permite comprender y resolver ecuaciones diferenciales, esto gracias a que convierte las ecuaciones diferenciales complejas en ecuaciones algebraica ya que presenta diversas propiedades que permiten que se adapte a diferentes casos, esto facilita el anàlisis de sistemas dinàmicos y se puede aplicar sobre todo a sistemas con variables que cambian con el tiempo. 
+Lo anterio hace que la transformada de Laplce sea una herramienta que no solo es fundamental en el campo del anàlisis matemàtico sino tambièn para el campo de la ingenieria donde es importante variables como desplzamiento en el tiempo, la frecuencia, etc, que nos permite comprender los fenòmenos dinàmicos.  
+## 12. Referencias:
+1. Al Modelado y Simulacion Ernesto Kofman I. Modelado y Simulaci ́on de Sistemas Din ́amicos: M ́etodos, Algoritmos y Herramientas [Internet]. Edu.ar. [citado el 12 de marzo de 2025]. Disponible en: https://www.fceia.unr.edu.ar/~kofman/files/eci_MyS_1.pdf 
+
+2.  Edu.ec. Recuperado el 12 de marzo de 2025, de https://sga.unemi.edu.ec/media/recursotema/Documento_2020618144651.pdf
+   
+3.  Seg PP. INGENIERIA INDUSTRIAL (APUNTES) [Internet]. Blogspot.com. [citado el 12 de marzo de 2025]. Disponible en: https://ingenieriaindustrialapuntes.blogspot.com/2009/03/definicion-de-sistema-system.html
+
+   
+4. Sistemas dinámicos. – Dinámica de sistemas físicos [Internet]. Unam.mx. [citado el 12 de marzo de 2025]. Disponible en: https://masam.cuautitlan.unam.mx/dycme/dsf/sistemas-dinamicos/
+
+5. Introducción T 1: Dinámica de Sistemas [Internet]. Uhu.es. [citado el 12 de marzo de 2025]. Disponible en: https://www.uhu.es/fernando.gomez/sdinamic_archivos/Apuntes/Ap_tema1.pdf
+
+6. Academia Khan [Internet]. Khanacademy.org. [citado el 12 de marzo de 2025]. Disponible en: https://es.khanacademy.org/math/ Differential-calculus/dc-diff-intro
+   
+7. Del Rosario E. 2.3 Sistemas Invariantes y Variantes en el tiempo con Sympy-Python [Internet]. Edu.ec. [citado el 12 de marzo de 2025]. Disponible en: https://blog.espol.edu.ec/telg1001/sistemas-invarianza-en-el-tiempo/
+  
+8. De Clase N. Sistemas No Lineales [Internet]. Edu.au. [citado el 12 de marzo de 2025]. Disponible en: https://www.eng.newcastle.edu.au/~jhb519/teaching/snolin/material/cap01.pd
+
+9. Conceptual: M 1. /. Señales y Sistemas [Internet]. Edu.co. [citado el 12 de marzo de 2025]. Disponible en: https://proyectos.javerianacali.edu.co/cursos_virtuales/pregrado/senales_y_sistemas/Lecturas/Modulo1/Unidad1/M1U1_PeriodicidadExponencialCompleja.pdf
+
+10. Edu.ec. [citado el 12 de marzo de 2025]. Disponible en: https://sga.unemi.edu.ec/media/recursotema/Documento_2020618144651.pdf
+
+11. Decaimiento exponencial [Internet]. Unam.mx. [citado el 12 de marzo de 2025]. Disponible en: https://blogceta.zaragoza.unam.mx/vbioedo/decaimiento-exponencial/
+
+12. Edu.ar. [citado el 12 de marzo de 2025]. Disponible en: https://www.mate.unlp.edu.ar/practicas/51_8_0510202311550.pdf
 
 
-
-
-
+    
