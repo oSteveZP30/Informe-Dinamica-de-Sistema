@@ -149,22 +149,62 @@ Esto permite tomar constantes fuera de la transformada y descomponer funciones c
 ### 8.2 Desplazamiento en t: 
 Es decir desplazamiento en el tiempo, esta permite el análisis de sistemas lineales invariantes en el tiempo,  se describe como un desplazamiento en el tiempo de una función en dominio del tiempo que afecta su función en dominio de una frecuencia. Permite la resolución de ecuaciones diferenciales donde las condiciones iniciales están desplazadas en el tiempo.
 
-$g(t)=f(t-\tau)u(t-\tau )$
+Si $g(t)=f(t-\tau)u(t-\tau )$
 
 Entonces $$G(s)=e^{-ST} F(s)$$ , $$\tau \geq 0$$
 
 ### 8.3  Desplazamiento en S: 
 Se conoce como desplazamiento de frecuencia, es una propiedad que permite analizar la multiplicación de una función en el dominio del tiempo por una función exponencial, representa un cambio de frecuencia del sistema. Esta propiedad permite analizar sistemas que poseen términos exponenciales.
 
+Si $g(t)= f(t-\tau )$
+
+Entonces $$G(s)=F(s+a)$$ , $$a\geq 0$$
+
 ### 8.4 Propiedad de escalado en t: 
 Esta describe un cambio en la escala del tiempo de una función, lo cual afecta su transformada de Laplace.  Permite analizar cambios de velocidad o frecuencia de un sistema.
+
+Si $g(t)=f(kt)$
+
+Entonces $$G(s)=\frac{1}{k} F (\frac{s}{k})$$
+
 ## 9. Funciones de la transformada de Laplace: 
 ### 9.1 Transformada escalón unitario: 
 Es una función que permite el análisis de señales y sistemas, se usa para representar causales, es decir para sistemas que su salida depende sólo de entradas presentes y pasadas, es decir para ecuaciones diferenciales con entradas discontinuas (11).
+
+$$l(t)=0$$ para t<0
+
+= 1 para t>0
+
+$$L[l(t)]=\frac{1}{s}$$ 
+
 insertar ecuacion e imagen
 ### 9.2 Transformada función rampa: 
 Esta comienza en cero y aumenta linealmente con el  tiempo, permite analizar funciones que aumentan linealmente, está definida por una pendiente, tiene un valor de = 0 en un intervalo definido por t < 0(11). 
-se define de la siguiente forma : 
+Se define de la siguiente forma : 
+
+$$f(t)=0 para t<0 $$
+
+$$ = At  para  t\geq 0 $$
+
+$$ L\left[ At \right]=$$
+
+La transformada de Laplace de \( At \) es:
+
+$$
+\mathcal{L}\left[ At \right] = \int_{0}^{\infty} Ate^{-st}dt
+$$
+
+Aplicando la integración por partes:
+
+$$\mathcal{L}\left[ At \right] = At \frac{e^{-st}}{-s} \Big|_0^\infty - \int_0^\infty \frac{Ae^{-st}}{-s} dt$$
+
+$$=\frac{A}{s}\int_{0}^{\infty} e^{-st} dt$$
+
+$$=\frac{A}{s^{2}}$$
+
 ### 9.3 Transformada función senoidal: 
 Es una función que permite resolver problemas que involucran oscilaciones que permite analizar sistema de entrada senoidal. 
+
+
+
 
