@@ -270,3 +270,50 @@ $$= \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)$$
 
 ## Ejercicios propios:
 
+### Resolución de la Ecuación Diferencial usando Transformada de Laplace
+
+Dada la ecuación diferencial:
+
+$$x'' + 2x' - 3x = 0$$
+
+Con las condiciones iniciales:
+
+$$x(0) = -1$$  
+$$x'(0) = 3$$  
+
+### Aplicación de la Transformada de Laplace:
+
+$$L[x''] + 2L[x'] - 3L[x] = 0$$
+
+Sustituyendo las fórmulas de las transformadas:
+
+$$s^2 L[x] - x(0)s - x'(0) + 2(s L[x] - x(0)) - 3 L[x] = 0$$
+
+Sustituyendo las condiciones iniciales:
+
+$$s^2 L[x] + s - 3 + 2s L[x] + 2 - 3 L[x] = 0$$
+
+Factorizando:
+
+$$L[x](s^2 + 2s - 3) = -s + 3 - 2$$
+
+Resolviendo para \(L[x]\):
+
+$$L[x] = \frac{-s + 1}{s^2 + 2s - 3}$$
+
+Factorizando el denominador:
+
+$$L[x] = \frac{-s + 1}{(s + 3)(s - 1)}$$
+
+Descomponiendo en fracciones parciales:
+
+$$L[x] = -\frac{1}{s + 3}$$
+
+Aplicando la transformada inversa:
+
+$$x = -L^{-1} \left( \frac{1}{s + 3} \right) = -e^{-3t}$$
+
+### Solución Final:
+
+$$x(t) = -e^{-3t}$$
+
