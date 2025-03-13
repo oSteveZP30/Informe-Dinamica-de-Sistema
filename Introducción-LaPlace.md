@@ -266,9 +266,9 @@ Es una tabla que provee pares funciones de la mayoría de transformadas de Lapla
 
 insertar imagen
 
-## 11. Conclusiòn: 
-La trasfromada de Laplace es una tècnica matemàtica muy importante ya que nos permite comprender y resolver ecuaciones diferenciales, esto gracias a que convierte las ecuaciones diferenciales complejas en ecuaciones algebraica ya que presenta diversas propiedades que permiten que se adapte a diferentes casos, esto facilita el anàlisis de sistemas dinàmicos y se puede aplicar sobre todo a sistemas con variables que cambian con el tiempo. 
-Lo anterio hace que la transformada de Laplce sea una herramienta que no solo es fundamental en el campo del anàlisis matemàtico sino tambièn para el campo de la ingenieria donde es importante variables como desplzamiento en el tiempo, la frecuencia, etc, que nos permite comprender los fenòmenos dinàmicos.  
+## 11. Conclusión: 
+La trasfromada de Laplace es una técnica matemàtica muy importante ya que nos permite comprender y resolver ecuaciones diferenciales, esto gracias a que convierte las ecuaciones diferenciales complejas en ecuaciones algebraica ya que presenta diversas propiedades que permiten que se adapte a diferentes casos, esto facilita el análisis de sistemas dinàmicos y se puede aplicar sobre todo a sistemas con variables que cambian con el tiempo. 
+Lo anterio hace que la transformada de Laplce sea una herramienta que no solo es fundamental en el campo del análisis matemàtico sino también para el campo de la ingenieria donde es importante variables como desplzamiento en el tiempo, la frecuencia, etc, que nos permite comprender los fenómenos dinámicos.  
 ## 12. Referencias:
 1. Al Modelado y Simulacion Ernesto Kofman I. Modelado y Simulaci ́on de Sistemas Din ́amicos: M ́etodos, Algoritmos y Herramientas [Internet]. Edu.ar. [citado el 12 de marzo de 2025]. Disponible en: https://www.fceia.unr.edu.ar/~kofman/files/eci_MyS_1.pdf 
 
