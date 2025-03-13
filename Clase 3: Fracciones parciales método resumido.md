@@ -270,6 +270,8 @@ $$= \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)$$
 
 ## Ejercicios propios:
 
+### Ejercicio 1:
+
 ### Resolución de la Ecuación Diferencial usando Transformada de Laplace
 
 Dada la ecuación diferencial:
@@ -313,7 +315,46 @@ Aplicando la transformada inversa:
 
 $$x = -L^{-1} \left( \frac{1}{s + 3} \right) = -e^{-3t}$$
 
-### Solución Final:
+#### Solución Final:
 
 $$x(t) = -e^{-3t}$$
+
+
+
+
+### Ejercicio 2:
+
+Dada la función de transferencia:
+
+$$G(s) = \frac{1}{s^2 + 6s + 13}$$
+
+Factorizando el denominador:
+
+$$s^2 + 6s + 13 = (s +3)^2 + 4$$
+
+Reescribiendo la expresión:
+
+$$G(s) = \frac{1}{(s + 3)^2 + 4}$$
+
+Aplicando la propiedad del desplazamiento en la transformada de Laplace:
+
+$$s + 3 \longrightarrow s$$
+
+Esto implica un factor exponencial en el dominio del tiempo:
+
+$$e^{-3t}$$
+
+La expresión resultante es:
+
+$$G(s) = e^{-3t} \cdot L^{-1}{ \frac{1}{s^2 + 4} }$$
+
+La transformada inversa de \( \frac{1}{s^2 + 4} \) es:
+
+$$L^{-1}{ \frac{2}{s^2 + 2^2} } = \frac{1}{2} \sin(2t)$$
+
+Por lo tanto, la solución es:
+
+$$G(t) = \frac{1}{2} e^{-3t} \sin(2t)$$
+
+
 
