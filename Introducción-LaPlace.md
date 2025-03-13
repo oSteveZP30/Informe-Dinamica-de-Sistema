@@ -247,7 +247,7 @@ Por lo tanto, la transformada de Laplace de $A \sin(\omega t)$ es:
 
 $$\frac{A\omega}{s^2 + \omega^2}$$
 
-![Figura 7](Imagenes/l.png)
+![Figura 7](Imagenes/L.png)
 
 
 ### 9.4 Transformada de una función
