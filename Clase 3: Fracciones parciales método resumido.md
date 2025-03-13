@@ -134,6 +134,8 @@ Es un entorno de programación y cálculo desarrollado por MathWorks, tiene un l
 ### 2.1 Fracciones parciales de Matlab:
 Al conocer los polinomios del numerador y denominador de la función de dominio s puede calcular los términos de las fracciones parciales. 
 
+![Figura 1](Imagenes/1.png)
+
 r => términos del numerador
 
 p => términos del denominador
