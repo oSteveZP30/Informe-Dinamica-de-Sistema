@@ -258,5 +258,15 @@ $$= \frac{3}{5s} - \frac{3s}{5((s+1)^2 + 4)} - \frac{6}{5((s+1)^2 + 4)}$$
   
 $$x(t) = \mathcal{L}^{-1}\left\[\frac{3}{5s}\right\] - \mathcal{L}^{-1}\left\[\frac{3s}{5((s+1)^2 + 4)}\right\] - \mathcal{L}^{-1}\left\[\frac{6}{5((s+1)^2 + 4)}\right\]$$  
 
-$$= \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{5}e^{-t}\sin(2t)$$
+$$= \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)$$
+
+
+
+
+
+
+
+
+
+## Ejercicios propios:
 
