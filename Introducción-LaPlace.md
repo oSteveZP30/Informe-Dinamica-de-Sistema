@@ -37,7 +37,8 @@ $$\frac{df(3)}{dx}= 2(3)=6$$
 
 $$\frac{df(0)}{dx}= 2(0)=0$$
 
-insertar imagen.
+![Figura 1](Imagenes/a.png)
+
 ## 1. ¿Cómo lucen los modelos de ecuaciones diferenciales?: 
 
 Son combinaciones lineales de derivadas de diferente orden: 
@@ -86,17 +87,17 @@ Para validar el modelo se compara la salida del modelo con la salida de modelo f
 ### 5.1 Comportamiento sinusoidal: 
 Se refiere a un patrón que se repite de forma regular, que gráficamente se ve como una curva oscilante. Esta se representa como la función de seno(8).
 
-insertar imagen
+![Figura 2](Imagenes/b.png)
 
 ### 5.2 Decaimiento exponencial:
 Se observa un decrecimiento acelerado debido a un fenómeno de variación exponencial. Este decaimiento es proporcional al valor de la medida o cantidad actual y es constante. Esto se modela matemáticamente por medio de una función exponencial con base entre 0 y 1 (9). 
 
-insertar imagen
+![Figura 3](Imagenes/c.png)
 
 ### 5.3 Combinación de los dos anteriores: 
 Se presenta una oscilación que pierde amplitud gradualmente con el paso del tiempo siguiendo la función de decaimiento exponencial(8).
 
-insertar imagen
+![Figura 4](Imagenes/d.png)
 
 ## 6.Transformada de Laplace:
 Es un cambio de espacio geométrico del dominio del tiempo hacia el dominio de la frecuencia compleja, esta muestra las exponenciales y sinusoidales presentes en una señal. 
@@ -177,7 +178,9 @@ $$l(t)=0$$ para t<0
 
 $$L[l(t)]=\frac{1}{s}$$ 
 
-insertar ecuacion e imagen
+![Figura 5](Imagenes/e.png)
+
+
 ### 9.2 Transformada función rampa: 
 Esta comienza en cero y aumenta linealmente con el  tiempo, permite analizar funciones que aumentan linealmente, está definida por una pendiente, tiene un valor de = 0 en un intervalo definido por t < 0(11). 
 Se define de la siguiente forma : 
@@ -201,6 +204,9 @@ $$\mathcal{L}\left[ At \right] = At \frac{e^{-st}}{-s} \Big|_0^\infty - \int_0^\
 $$=\frac{A}{s}\int_{0}^{\infty} e^{-st} dt$$
 
 $$=\frac{A}{s^{2}}$$
+
+![Figura 6](Imagenes/f.png)
+
 
 ### 9.3 Transformada función senoidal: 
 Es una función que permite resolver problemas que involucran oscilaciones que permite analizar sistema de entrada senoidal(11). 
@@ -239,9 +245,11 @@ $$
 
 Por lo tanto, la transformada de Laplace de $A \sin(\omega t)$ es:
 
-$$
-\frac{A\omega}{s^2 + \omega^2}
-$$
+$$\frac{A\omega}{s^2 + \omega^2}$$
+
+![Figura 7](Imagenes/g.png)
+
+
 ### 9.4 Transformada de una función
 Es cuando una función de una variable (usualmente tiempo) se convierte en otra función con una variable diferente (frecuencia) (10).
 
@@ -264,7 +272,8 @@ $$L \left[{\int{f(t)dt}}\right]= \frac{1}{s} F(s)$$
 ## 10. Tabla de transformadas
 Es una tabla que provee pares funciones de la mayoría de transformadas de Laplace, lo que permite encontrar la transformada de una función y, así mismo, la transformada inversa(10).
 
-insertar imagen
+![Figura 8](Imagenes/i.png)
+
 
 ## 11. Conclusión: 
 La trasfromada de Laplace es una técnica matemàtica muy importante ya que nos permite comprender y resolver ecuaciones diferenciales, esto gracias a que convierte las ecuaciones diferenciales complejas en ecuaciones algebraica ya que presenta diversas propiedades que permiten que se adapte a diferentes casos, esto facilita el análisis de sistemas dinàmicos y se puede aplicar sobre todo a sistemas con variables que cambian con el tiempo. 
