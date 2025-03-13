@@ -178,7 +178,7 @@ $$l(t)=0$$ para t<0
 
 $$L[l(t)]=\frac{1}{s}$$ 
 
-![Figura 5](Imagenes/e.png)
+![Figura 5](Imagenes/k.png)
 
 
 ### 9.2 Transformada función rampa: 
@@ -247,7 +247,7 @@ Por lo tanto, la transformada de Laplace de $A \sin(\omega t)$ es:
 
 $$\frac{A\omega}{s^2 + \omega^2}$$
 
-![Figura 7](Imagenes/g.png)
+![Figura 7](Imagenes/l.png)
 
 
 ### 9.4 Transformada de una función
