@@ -272,7 +272,7 @@ $$L \left[{\int{f(t)dt}}\right]= \frac{1}{s} F(s)$$
 ## 10. Tabla de transformadas
 Es una tabla que provee pares funciones de la mayoría de transformadas de Laplace, lo que permite encontrar la transformada de una función y, así mismo, la transformada inversa(10).
 
-![Figura 8](Imagenes/i.png)
+![Figura 8](Imagenes/z.png)
 
 
 ## 11. Conclusión: 
