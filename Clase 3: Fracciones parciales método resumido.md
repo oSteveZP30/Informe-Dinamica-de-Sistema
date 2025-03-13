@@ -218,5 +218,48 @@ $$x = \mathcal{L}^{-1}\{\mathcal{L}\{x\}\} = \mathcal{L}^{-1}\left\[\frac{2a+b}{
 
 $$= (2a+b)e^{-t}- (a+b) e^{-2t}$$
 
+### 💡Ejemplo 5:
 
+$$\ddot{x} + 2\dot{x} + 5x = 3$$
+
+$$x(0) = 0, \quad \dot{x}(0) = 0$$
+
+
+$$\mathcal{L}\{\ddot{x}\} + 2\mathcal{L}\{\dot{x}\} + 5\mathcal{L}\{x\} = \mathcal{L}\{3\}$$
+
+$$s^2\mathcal{L}\{x\} - x_0s - \dot{x}_0 + 2(s\mathcal{L}\{x\} - x_0) + 5\mathcal{L}\{x\} = \frac{3}{5}$$
+
+$$s^2\mathcal{L}\{x\} - (0s^0) - 0 + 2s\mathcal{L}\{x\} + 5\mathcal{L}\{x\} = \frac{3}{5}$$
+
+$$\mathcal{L}\{x\}(s^2 + 2s + 5) = \frac{3}{5}$$
+
+$$\mathcal{L}\{x\} = \frac{\frac{3}{5}}{s^2 + 2s + 5} = \frac{\frac{3}{5}}{(s+1)^2 + 4}$$
+
+$$= 3 L^{-1}{\frac{1}{5}}+ 3 L^{-1} {\frac{1}{(s+1)^{2}+ 2^{2}}}$$
+
+$$3 e^{-t} \mathcal{L}^{-1} \left[ \frac{1}{2} \cdot \frac{2}{(s+1)^{2} + 2^{2}} \right]$$
+
+$$= \frac{3}{5((s+1)^2 + 4)} = \frac{3}{5} + \frac{3}{(s+1)^2 + 4}$$
+
+$$\frac{3}{s((s+1)^2 + 4)} = \frac{A}{s} + \frac{Bs+C}{s^2 + 2s + 5}$$
+
+$$3 = A(s^2 + 2s + 5) + (Bs+C)s$$
+
+$$3 = As^2 + 2As + 5A + Bs^2 + Cs$$
+
+- \(s^2: 0 = A + B\)
+
+  
+- \(s^1: 0 = 2A + C\)
+  
+  
+- \(s^0: 3 = 5A\)
+
+$$\mathcal{L}\{x\} = \frac{3}{5s} - \frac{3s}{5(s^2 + 2s + 5)} - \frac{6}{5(s^2 + 2s + 5)}$$
+
+$$= \frac{3}{5s} - \frac{3s}{5((s+1)^2 + 4)} - \frac{6}{5((s+1)^2 + 4)}$$
+  
+$$x(t) = \mathcal{L}^{-1}\left\[\frac{3}{5s}\right\] - \mathcal{L}^{-1}\left\[\frac{3s}{5((s+1)^2 + 4)}\right\] - \mathcal{L}^{-1}\left\[\frac{6}{5((s+1)^2 + 4)}\right\]$$  
+
+$$= \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{5}e^{-t}\sin(2t)$$
 
