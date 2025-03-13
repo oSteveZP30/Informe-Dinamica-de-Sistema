@@ -153,9 +153,7 @@ Transfrome al dominio $s = 8 \sin(4t) - 5 \cos(4t)$
 
 · la notaciòn con minúscula supone una función definida en t.
 
-· syms t  s
-
-y=s*sin(4*t)-5cos(4*t);
+![Figura 1](Imagenes/2.png)
 
 Y la notaciòn con mayúsculas indica una función transformada
 
@@ -174,13 +172,10 @@ Obtenga la transformada inversa de $Y(s)=\frac{6s - 4}{s^2 + 4s + 20}$
 
 La transformada inversa de Laplace se obtiene con el comando syms que genera variables s y t para pasar de dominio s al dominio t 
 
-syms s t 
 
 la notaciòn con mayúsculas supone funciones en s
 
-Y= (6*s-4)/(s^2+4*s+20);
-
-Y= ilaplace(y)
+![Figura 1](Imagenes/3.png)
 
 y= 6*exp(-2*t) * (cos(4*t) - (2*sin(4*t))/3)
 
