@@ -90,9 +90,10 @@ A = 1<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&
 
 C = 2- B <span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;B = 2 - 5 + 4
 
-C = 2 - 1<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;B= 1
+$$C = 2 - 1 B= 1$$
 
 C = 1
+
 
 $$\frac{2s^2 + 6s + 5}{(s+2)(s+1)^2} = \frac{1}{s+2} + \frac{1}{s+1} + \frac{1}{(s+1)^2}$$
 
@@ -176,9 +177,60 @@ Finalmente:
 
 $$= \frac{1}{3} e^{-t} \sin(t) + \frac{1}{3} e^{-t} \sin(2t)$$
 
+# Ejercicios propios:
+## 📚Ejercicio 1: 
+Obtenga la \( T \) inversa de
+
+$$G(s) = \frac{5-4}{s^4 - 9s^2} = \frac{5-4}{s^2(s^2 - 9)} = \frac{5-4}{s^2(s-3)(s+3)}$$
+
+$$\frac{5-4}{s^2(s-3)(s+3)} = \frac{A}{s} + \frac{B}{s^2} + \frac{C}{s-3} + \frac{D}{s+3}$$
 
 
 
+$$5-4 = A(s)(s-3)(s+3) + B(s-3)(s+3) + C(s^2)(s+3) + D(s^2)(s-3)$$
+
+$$5-4 = As(s^2-9) + B(s^2-9) + Cs^3 + 3Cs^2 + Ds^3 - 3Ds^2$$
+
+$$5-4 = As^3 - 9As + Bs^2 - 9B + Cs^3 + 3Cs^2 + Ds^3 - 3Ds^2$$
 
 
+
+$$\begin{aligned} 0 &= A + C + D &&&& D = -A - C\end{aligned}$$
+
+$$\begin{aligned}1= -9A\end{aligned}$$
+$$\begin{aligned}A= \frac{-1}{9}&&&&0=\frac{4}{9} + 3C - 3(-A-C)\end{aligned}$$
+$$\begin{aligned}-4 =-9B&&&&0=\frac{4}{9} + 3C + 3(\frac{-1}{9})+3C\end{aligned}$$
+$$\begin{aligned}B = \frac{4}{9}&&&& 0 = \frac{4}{9} + 6C(\frac{-3}{9})=\frac{4}{9} + 6C (\frac{-1}{3})\end{aligned}$$ 
+$$\begin{aligned} 0 &= B + 3C - 3D &&&& 0 = \frac{1}{9} + 6C\end{aligned}$$
+$$-9A = 0$$ 
+-9B &= -4
+\end{aligned}
+$$
+
+$$\frac{5-4}{s^2(s-3)(s+3)} = \frac{\frac{1}{9}}{s}+\frac{\frac{4}{9}}{s^2} - \frac{\frac{1}{54}}{s-3} + \frac{\frac{1}{54}}{s+3}$$
+
+$$(\frac{-1}{9})L^{-1}\left\[\frac{1}{s}\right\] + (\frac{4}{9})L^{-1}\left\[\frac{1}{s^2}\right\] + (\frac{1}{54}) L^{-1}\left\[\frac{1}{s-3}\right\] + (\frac{7}{54})[\frac{1}{s+3}]$$
+
+$$= -\frac{1}{9} + \frac{4}{9}t - \frac{1}{54}e^{3t} + \frac{1}{54}e^{-3t}$$
+
+## 📚Ejercicio 2:
+Obtenga la transformada inversa de:
+
+$$G(s) = \left(\frac{s+1}{s^2}\right)^2 = \frac{s^2 + 2s + 1}{s^6} = \frac{s^2}{s^6} + \frac{2s}{s^6} + \frac{1}{s^6}$$
+
+$$ \frac{1}{s^4} + \frac{2}{s^5} + \frac{1}{s^6}= L^{-1}\left\[\frac{1}{s^4}\right\] + 2 L^{-1}\left\[\frac{1}{s^5}\right\] + L^{-1}\left\[\frac{1}{s^6}\right\]$$
+
+$$=\frac{1}{3!}\frac{3!}{s^{3+1}}= \frac{1}{6}t^{3}= 2\frac{1}{4!} \frac{4!}{s^{4+1}}=\frac{1}{24}t^{4=\frac{1}{5!}}\frac{5!}{s^{5+1}}-\frac{1}{120}t^{5}$$
+
+$$=\frac{1}{6}t^{3}+\frac{1}{12}t^{4}+\frac{1}{120}t^{5}$$
+
+## 📚Ejercicio 3:
+
+$$G(s) = \frac{2s - 5}{s^2 + 36} = \frac{2s}{s^2 + 36} - \frac{5}{s^2 + 36}$$
+
+$$2 L^{-1}\left\[\frac{2s}{s^2 + 36}\right\] -  5 L^{-1}\left\[\frac{1}{s^2 + 36}\right\]$$
+
+$$2 L^{-1}\left\[\frac{2s}{s^2 + 36}\right\] - (\frac{1}{6}) L^{-1}\left\[\frac{6}{s^2 + 6^2}\right\]$$
+
+$$= 2\cos(6t) - \frac{5}{6}\sin(6t)$$
 
