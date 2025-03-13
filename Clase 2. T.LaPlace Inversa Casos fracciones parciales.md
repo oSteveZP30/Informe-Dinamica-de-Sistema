@@ -71,28 +71,27 @@ $$ 2s^2+6s+5= A(s+1)^2+B(s+2)(s+1)+C(s+2) $$
 $$2s^2 + 6s + 5 = As^2 + 2As + A + Bs^2 + 3Bs + 2B + Cs + 2C$$
 
 
-2 = A + B <span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span>A= 2 - B
+$$2 = A + B $$
+$$A= 2 - B$$
 
-6 = 2A + 3B + C<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span>                6 = 2(2 - B) + 3B + C
+$$6 = 2A + 3B + C$$
+$$6 = 2(2 - B) + 3B + C$$
+$$6= 4-2B + 3B + C$$
+$$2 =B + C$$
+$$B= 2 - C$$
 
-<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span>6= 4-2B + 3B + C
+$$5 =A + 2B + 2C$$
+$$5= 2 - B + 2(2 - C) + 2C $$
+$$5 = 2 - B + 4 $$
+$$B=2-5+4$$
+$$B=1$$
 
-5 =A + 2B + 2C<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;2 =B + C
+$$ A =2-1 $$
+$$A = 1$$
 
-<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span> B= 2 - C
-
-A =2-1
-
-A = 1<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;5= 2 - B + 2(2 - C) + 2C 
-
-
-<span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span>5 = 2 - B + 4 
-
-C = 2- B <span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;&nbsp;</span><span>&nbsp;&nbsp;B = 2 - 5 + 4
-
-$$C = 2 - 1 B= 1$$
-
-C = 1
+$$C = 2- B$$
+$$C = 2 - 1 $$
+$$C = 1$$
 
 
 $$\frac{2s^2 + 6s + 5}{(s+2)(s+1)^2} = \frac{1}{s+2} + \frac{1}{s+1} + \frac{1}{(s+1)^2}$$
@@ -123,22 +122,35 @@ $$s^2 + 2s + 3 = (As + B)(s^2 + 2s + 5) + (Cs + D)(s^2 + 2s + 2)$$
 $$s^2 + 2s + 3 = As^3 + 2As^2 + 5As + Bs^2 + 2Bs + 5B + Cs^3 + 2Cs^2 + 2Cs + Ds^2 + 2Ds + 2D$$
 
 
-$$\begin{aligned}0= A + C &&&& A = -C \end{aligned}$$
+$$0= A + C $$
+$$A = -C$$
 
-$$\begin{aligned}1= 2A + B + 2C + D\end{aligned}$$
+$$1= 2A + B + 2C + D$$
+$$1 = -2C + B + 2C + D$$
+$$1 = -2C + B + 2C + D$$
+$$ 1 = B + D$$
+$$B = 1 - D$$
 
-$$\begin{aligned}2= 5A + 2B + 2C + 2D &&&& 1 = -2C + B + 2C + D\end{aligned}$$
-$$\begin{aligned}3= 5B + 2D &&&&& 1 &= -2C + B + 2C + D\end{aligned}$$
-$$\begin{aligned}&&&& 1 = B + D\end{aligned}$$
+$$2= 5A + 2B + 2C + 2D$$
+$$2 = 5(-C) + 2(1 - D) + 2C + 2D$$
+$$2 = -5C +2- 2D + 2C + 2D$$ 
+$$2 = -3C + 2$$
+$$0 = - 3C$$
+$$C = 0 $$
 
-$$\begin{aligned}2 = 5(-C) + 2(1 - D) + 2C + 2D &&&&& B &= 1 - D\end{aligned}$$
-$$\begin{aligned}2 = -5C +2- 2D + 2C + 2D&&&&&&&&&&&&&\end{aligned}$$ 
-$$\begin{aligned}2 = -3C + 2 &&&&& 3 &= 5(1 - D) + 2D &&&&&\end{aligned}$$
-$$\begin{aligned}0 = - 3C &&&&& 3= 5 - 5D + 2D&&&&&&&&&&&&&&&&\end{aligned}$$
-$$\begin{aligned}C = 0 &&&&& 3 =  5-3D &&&&&&&&&& D= \frac{2}{3}&&&&&&&\end{aligned}$$
-$$\begin{aligned}&& -2 = -3D&&&&&&&&&&&&&&&&\end{aligned}$$
-$$\begin{aligned}A= 0 &&&&& \frac{-2}{-3}= D&&&&&&&B=1\frac{-2}{3}\end{aligned}$$
-$$\begin{aligned}B = \frac{1}{3}\end{aligned}$$
+$$A= 0$$
+
+$$3= 5B + 2D$$
+$$3 = 5(1 - D) + 2D$$
+$$3= 5 - 5D + 2D$$
+$$3 =  5-3D$$
+$$-2 = -3D$$
+$$D= \frac{2}{3}$$
+
+$$B=1-\frac{2}{3}$$
+$$B = \frac{1}{3}$$
+
+
 $$\frac{\frac{1}{3}}{s^{2+2s+2}}+\frac{\frac{2}{3}}{s^{2}+2s+5}$$
 
 $$L^{-1}\left\[\frac{\frac{1}{3}}{s^2 + 2s + 2} + \frac{\frac{2}{3}}{s^2 + 2s + 5}\right\] = L^{-1}\left\[\frac{\frac{1}{3}}{s^2 + 2s + 2}\right\] + L^{-1}\left\[\frac{\frac{2}{3}}{s^2 + 2s + 5}\right\]$$
@@ -152,11 +164,11 @@ Tomamos primero los 2 primeros términos y le agregamos y restamos 1:
 
 $$s^2 + 2s + 1 - 1 + 2 = (s+1)^2 + 1$$
 
-Juntamos las 2 expresiones y operamos:
+Realizamos lo mismo con la expresion 2:
 
 $$s^2 + 2s + 5 = s^2 + 2s + 1 - 1 + 5 = (s+1)^2 + 4$$
 
-Ahora para poder operar estas transformadas:
+Ahora realizamos la transformada de la siguiente manera:
 
 $$L^{-1}\left\[\frac{\frac{1}{3}}{(s+1)^2 + 1}\right\] + L^{-1}\left\[\frac{\frac{2}{3}}{(s+1)^2 + 4}\right\]$$
 
@@ -164,10 +176,9 @@ Sabemos que la transformada inversa de:
 
 $$L^{-1}\left\[\frac{a}{(s+c)^2 + a^2}\right\] = e^{-ct} \sin(at)$$
 
-Para nuestra casa, los términos son \((s+1)^2 + a^2\). Esto nos dice que la transformada de la placa, la cual introducimos es:
+Para nuestra caso, los términos son \((s+1)^2 + a^2\). Esto nos dice que la transformada de la place esta trasladada, para lo cual utilizamos la siguiente ecuacion:
 
-$$ L^{-1}\left\[\frac{1}{(s+c)^2 + a^2}\right\] = e^{-ct} \frac{\sin(at)}{a}
-$$
+$$ L^{-1}\left\[\frac{1}{(s+c)^2 + a^2}\right\] = e^{-ct} \frac{\sin(at)}{a}$$
 
 Entonces:
 
@@ -195,23 +206,31 @@ $$5-4 = As^3 - 9As + Bs^2 - 9B + Cs^3 + 3Cs^2 + Ds^3 - 3Ds^2$$
 
 
 
-$$\begin{aligned} 0 &= A + C + D &&&& D = -A - C\end{aligned}$$
+$$0 = A + C + D$$
+$$D = -A - C$$
+$$1= -9A$$
+$$A= -\frac{1}{9}$$
 
-$$\begin{aligned}1= -9A\end{aligned}$$
-$$\begin{aligned}A= \frac{-1}{9}&&&&0=\frac{4}{9} + 3C - 3(-A-C)\end{aligned}$$
-$$\begin{aligned}-4 =-9B&&&&0=\frac{4}{9} + 3C + 3(\frac{-1}{9})+3C\end{aligned}$$
-$$\begin{aligned}B = \frac{4}{9}&&&& 0 = \frac{4}{9} + 6C(\frac{-3}{9})=\frac{4}{9} + 6C (\frac{-1}{3})\end{aligned}$$ 
-$$\begin{aligned} 0 &= B + 3C - 3D &&&& 0 = \frac{1}{9} + 6C\end{aligned}$$
-$$-9A = 0$$ 
--9B &= -4
-\end{aligned}
-$$
+$$-4 =-9B$$
+$$B = \frac{4}{9}$$
+
+$$0=\frac{4}{9} + 3C - 3(-A-C)$$
+$$0=\frac{4}{9} + 3C + 3(\frac{-1}{9})+3C$$
+$$0 = \frac{4}{9} + 6C(\frac{-3}{9})=\frac{4}{9} + 6C (\frac{-1}{3})$$
+$$0 = \frac{1}{9} + 6C$$
+$$ C= -\frac{1}{54}$$
+
+$$ 0 = B + 3C - 3D$$
+$$D=\frac{6}{6}*\frac{1}{9}+\frac{1}{54}=\frac{6}{54}+\frac{1}{54}$$
+$$D=\frac{7}{54}$$
+
+
 
 $$\frac{5-4}{s^2(s-3)(s+3)} = \frac{\frac{1}{9}}{s}+\frac{\frac{4}{9}}{s^2} - \frac{\frac{1}{54}}{s-3} + \frac{\frac{1}{54}}{s+3}$$
 
 $$(\frac{-1}{9})L^{-1}\left\[\frac{1}{s}\right\] + (\frac{4}{9})L^{-1}\left\[\frac{1}{s^2}\right\] + (\frac{1}{54}) L^{-1}\left\[\frac{1}{s-3}\right\] + (\frac{7}{54})[\frac{1}{s+3}]$$
 
-$$= -\frac{1}{9} + \frac{4}{9}t - \frac{1}{54}e^{3t} + \frac{1}{54}e^{-3t}$$
+$$= -\frac{1}{9} + \frac{4}{9}t - \frac{1}{54}e^{3t} + \frac{7}{54}e^{-3t}$$
 
 ## 📚Ejercicio 2:
 Obtenga la transformada inversa de:
@@ -220,7 +239,7 @@ $$G(s) = \left(\frac{s+1}{s^2}\right)^2 = \frac{s^2 + 2s + 1}{s^6} = \frac{s^2}{
 
 $$ \frac{1}{s^4} + \frac{2}{s^5} + \frac{1}{s^6}= L^{-1}\left\[\frac{1}{s^4}\right\] + 2 L^{-1}\left\[\frac{1}{s^5}\right\] + L^{-1}\left\[\frac{1}{s^6}\right\]$$
 
-$$=\frac{1}{3!}\frac{3!}{s^{3+1}}= \frac{1}{6}t^{3}= 2\frac{1}{4!} \frac{4!}{s^{4+1}}=\frac{1}{24}t^{4=\frac{1}{5!}}\frac{5!}{s^{5+1}}-\frac{1}{120}t^{5}$$
+$$=\frac{1}{3!}\frac{3!}{s^{3+1}}= \frac{1}{6}t^{3}= 2\frac{1}{4!} \frac{4!}{s^{4+1}}=\frac{1}{24}t^{4} = \frac{1}{5!}\frac{5!}{s^{5+1}}=\frac{1}{120}t^{5}$$
 
 $$=\frac{1}{6}t^{3}+\frac{1}{12}t^{4}+\frac{1}{120}t^{5}$$
 
