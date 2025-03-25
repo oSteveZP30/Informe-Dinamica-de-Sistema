@@ -32,5 +32,20 @@ $$
 \end{aligned}
 $$
 
+$$ 1=2s^2+2s+1+Bs^2+Cs $$
+
+$$ 0=2+B $$
+$$ B=-2 $$
+$$ 0=2+C $$
+$$ C=-2 $$
+
+$$ \frac{1}{s}-\frac{2s-2}{2s^2+2s+1} $$
+$$ \frac{1}{s}-\frac{2(s+1)}{2(s^2+s+\frac{1}{2})} $$
+$$ \frac{1}{s}-\frac{(s+\frac{1}{2})}{(s^2+s+\frac{1}{2})} $$
+$$ \frac{1}{s}-\frac{(s+\frac{1}{2})}{(s^2+s+\frac{1}{2})}-\frac{1}{2}.\frac{1}{(s+\frac{1}{2})^{2}+\frac{1}{4}}+\frac{4}{2(s+\frac{1}{2})^{2}+\frac{1}{4}} $$
+
+
+$$L[x]=\frac{1}{s}-\frac{s+\frac{1}{2}}{\left(s+\frac{1}{2}\right)^2+\frac{1}{4}}-\frac{1}{2} \cdot \frac{1}{\left(s+\frac{1}{2}\right)^2+\frac{1}{4}}+\frac{2}{\left(s+\frac{1}{2}\right)^2+\frac{1}{4}}$$
+$$ x=L^{-1}\left[\frac{1}{s}\right]-L^{-1}\left[\frac{s+\frac{1}{2}}{\left(s+\frac{1}{2}\right)^2+\frac{1}{4}}\right]-\frac{1}{2} L^{-1}\left[\frac{1}{\left(s+\frac{1}{2}\right)^2+\frac{1}{4}}\right]+2 L^{-1}\left[\frac{1}{\left(s+\frac{1}{2}\right)^2+\frac{1}{4}}\right] $$
 # Ejercicios practica:
 ## 📚Ejercicio 1: 
