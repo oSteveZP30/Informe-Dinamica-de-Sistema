@@ -83,7 +83,7 @@ $$ f(t)=\frac{60}{17} \cdot e^{\left(\frac{5}{2} t\right)}-\frac{60}{17} e^{2 t}
 
 
 
-# Ejercicios practica:
+# Ejercicios de practica:
 ## 📚Ejercicio 1: 
 
 $$\ddot{x} + 4x = 5 \quad x(0) = 5, \quad \dot{x}(0) = 0$$  
