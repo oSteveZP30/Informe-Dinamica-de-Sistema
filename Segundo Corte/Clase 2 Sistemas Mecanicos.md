@@ -1,7 +1,7 @@
 # Sistemas mecánicos 
 > 🔑 Los sistemas mecánicos son un conjunto de componentes, elementos o dispositivos físicos cuya función específica es convertir o transmitir el movimiento y la fuerza de entrada generada por alguna fuente de energía, al movimiento y la fuerza de salida que se desea producir. Por tanto, son sistemas que tienen partes móviles.
 
-![Figura1](Imagenes2C/1.png)
+![Figura1](Imagenes/1.C2.png)
 
 Figura 1. Representación de sistemas 
 
